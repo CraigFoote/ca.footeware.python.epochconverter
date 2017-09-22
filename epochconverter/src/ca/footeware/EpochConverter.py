@@ -6,9 +6,11 @@ Created on Sep 2, 2017
 @author: footeware.ca
 '''
 
+from tkinter import messagebox
+
 import datetime as dt
 import tkinter as tk
-from tkinter import messagebox
+
 
 class EpochConverter(object):
     """Converts to and from ISO8601 formatted date and milliseconds since epoch."""
